@@ -86,9 +86,7 @@ forecasting behavior.
 | RandomForest       | ✔ | 0.019829   | 0.029297   | 0.9881  |
 | XGBoost            | ❌ | 0.140453   | 0.192802   | 0.4826  |
 | XGBoost            | ✔ | **0.019385** | **0.027914** | **0.9892** |
-| **CHWM (Final)**   | ✔ | **0.019385** | **0.027914** | **0.9892** |
 
-**CHWM (Çakmak Hybrid Wind Model)** is based on the best-performing feature-engineered model on the AllCombined dataset.
 
 ---
 
