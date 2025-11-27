@@ -5,8 +5,6 @@
 <h1 align="center">WindFarm-SCADA-Multilocation-Modeling</h1>
 
 
-# WindFarm-SCADA-Multilocation-Modeling
-
 
 This repository contains a wind power forecasting workflow built on SCADA data collected from multiple turbine locations.  
 The project includes data preparation, feature engineering, model training, and interpretability analyses.
