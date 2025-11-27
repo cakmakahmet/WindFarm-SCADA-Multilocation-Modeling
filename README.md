@@ -1,6 +1,9 @@
 <p align="center">
-  <img src="./assets/istockphoto-1280717667-612x612.jpg" width="120">
+  <img src="./assets/istockphoto-1280717667-612x612.jpg" width="140">
 </p>
+
+<h1 align="center">WindFarm-SCADA-Multilocation-Modeling</h1>
+
 
 # WindFarm-SCADA-Multilocation-Modeling
 
