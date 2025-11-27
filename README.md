@@ -6,8 +6,13 @@
 
 
 
-This repository contains a wind power forecasting workflow built on SCADA data collected from multiple turbine locations.  
+This repository presents a wind power forecasting workflow built on SCADA data collected from multiple turbine locations.  
 The project includes data preparation, feature engineering, model training, and interpretability analyses.
+
+A central contribution of this work is the development of a custom hybrid forecasting approach called  
+**CHWM – Çakmak Hybrid Wind Model**.  
+CHWM integrates feature-engineered SCADA/ERA5 signals with multi-model learning (Random Forest + XGBoost) to achieve high-accuracy point predictions as well as strong probabilistic performance across multiple wind turbine sites.  
+The model consistently outperforms its individual components and other baseline algorithms.
 
 ---
 
@@ -27,10 +32,9 @@ The pipeline brings the following components together:
 
 ## CHWM – Çakmak Hybrid Wind Model
 
-CHWM is the final version of the model obtained after testing several algorithms and feature sets.  
-It combines engineered signals, meteorological information, and model selection findings into a single forecasting approach.
-
-The intention is to provide a clear, practical, and explainable model structure that can be extended or adapted to new sites.
+CHWM is the final hybrid architecture derived after testing several algorithms and feature sets.  
+It combines engineered SCADA signals, meteorological information, and model-based performance insights into a unified forecasting structure.  
+The goal is to provide a clear, practical, and explainable model that can be adapted to new turbine locations and datasets.
 
 ---
 
