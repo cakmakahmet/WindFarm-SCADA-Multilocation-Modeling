@@ -211,7 +211,6 @@ data["Time"] = pd.to_datetime(data["Time"])
 print("Başlangıç shape:", data.shape)
 
 # Start/stop gürültüsü filtresi
-# Gerekirse eşiği düşürebilirsin (örn. > 10)
 data = data[data["Power"] > 50]
 print("Power>50 filtresi sonrası:", data.shape)
 
